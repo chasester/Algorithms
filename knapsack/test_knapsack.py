@@ -90,6 +90,7 @@ class Test(unittest.TestCase):
     self.assertEqual(knapsack_solver(self.small_1_items, 100), {'Value': 197, 'Chosen': [1, 7, 8]})
     self.assertEqual(knapsack_solver(self.small_2_items, 100), {'Value': 259, 'Chosen': [1, 9, 10]})
     self.assertEqual(knapsack_solver(self.small_3_items, 100), {'Value': 129, 'Chosen': [4, 5, 7, 9]})
+    
     self.cleanUp_small()
 
   def test_with_medium_input(self):
